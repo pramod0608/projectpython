@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: pythont-app
-          image: pramodmedi/python-system-monitoring:tagname # Replace with your Docker image name
+          image: pramodmedi/python-system-monitoring # Replace with your Docker image name
           ports:
             - containerPort: 5000 # Expose the port specified in your Dockerfile
 
